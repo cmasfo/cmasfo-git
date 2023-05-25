@@ -12,22 +12,22 @@ build = "build.rs"
 # common library
 [lib]
 name = "lib"
-path = "src/lib.rs"
+path = "_src/lib.rs"
 
 # start app with cli
 [[bin]]
 name = "cli"
-path = "bin/cli.rs"
+path = "_bin/cli.rs"
 
 # start app with gui
 [[bin]]
 name = "gui"
-path = "bin/gui.rs"
+path = "_bin/gui.rs"
 
 # start app with no ui
 [[bin]]
 name = "bin"
-path = "bin/bin.rs"
+path = "_bin/bin.rs"
 
 [dependencies]
 # popular crates
