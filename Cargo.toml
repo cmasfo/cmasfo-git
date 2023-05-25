@@ -1,0 +1,34 @@
+
+# main rust project
+[package]
+# basic
+name = "cmasfo-git"
+version = "0.1.0"
+edition = "2021"
+# additional
+default-run = "cli"
+build = "build.rs"
+
+# common library
+[lib]
+name = "lib"
+path = "src/lib.rs"
+
+# start app with cli
+[[bin]]
+name = "cli"
+path = "bin/cli.rs"
+
+# start app with gui
+[[bin]]
+name = "gui"
+path = "bin/gui.rs"
+
+# start app with no ui
+[[bin]]
+name = "bin"
+path = "bin/bin.rs"
+
+[dependencies]
+# popular crates
+rand = "0"
