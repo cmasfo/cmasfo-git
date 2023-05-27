@@ -22,3 +22,7 @@ It is same path to make repo readme in github organization's repository.
 * docs/README.md
 
 ## README priority based on File Extension
+
+* README.md
+* README.rst
+* README.txt
