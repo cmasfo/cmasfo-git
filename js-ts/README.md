@@ -1,2 +1,2 @@
 
-# JavaScript & TypeScript (Runtime)
+# JavaScript & TypeScript
