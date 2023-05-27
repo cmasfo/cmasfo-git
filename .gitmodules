@@ -1,0 +1,18 @@
+[submodule "0_cmasfo-dev"]
+	path = 0_cmasfo-dev
+	url = https://github.com/cmasfo/cmasfo-dev
+[submodule "1_cmasfo-ssg"]
+	path = 1_cmasfo-ssg
+	url = https://github.com/cmasfo/cmasfo-ssg
+[submodule "2_cmasfo-cms"]
+	path = 2_cmasfo-cms
+	url = https://github.com/cmasfo/cmasfo-cms
+[submodule "3_cmasfo-web"]
+	path = 3_cmasfo-web
+	url = https://github.com/cmasfo/cmasfo-web
+[submodule "4_cmasfo-app"]
+	path = 4_cmasfo-app
+	url = https://github.com/cmasfo/cmasfo-app
+[submodule ".github/profile"]
+	path = .github/profile
+	url = https://github.com/cmasfo/cmasfo
