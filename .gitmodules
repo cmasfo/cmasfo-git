@@ -16,3 +16,6 @@
 [submodule ".github/profile"]
 	path = .github/profile
 	url = https://github.com/cmasfo/cmasfo
+[submodule "korean"]
+	path = korean
+	url = https://github.com/cmasfo/korean
