@@ -19,3 +19,9 @@
 [submodule "korean"]
 	path = korean
 	url = https://github.com/cmasfo/korean
+[submodule "c-cpp"]
+	path = c-cpp
+	url = https://github.com/cmasfo/c-cpp
+[submodule "rust"]
+	path = rust
+	url = https://github.com/cmasfo/rust
