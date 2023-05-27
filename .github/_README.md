@@ -26,3 +26,5 @@ It is same path to make repo readme in github organization's repository.
 * README.md
 * README.rst
 * README.txt
+
+Also, directory has the higher priority over extension.
