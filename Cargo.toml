@@ -32,3 +32,5 @@ path = "_bin/bin.rs"
 [dependencies]
 # popular crates
 rand = "0"
+# windowing
+winit = "0"

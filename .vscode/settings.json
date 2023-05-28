@@ -1,3 +1,4 @@
 {
-  "explorer.sortOrderLexicographicOptions": "unicode"
+  "explorer.sortOrderLexicographicOptions": "unicode",
+  "rust-analyzer.showUnlinkedFileNotification": false
 }
