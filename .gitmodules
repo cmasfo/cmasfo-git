@@ -28,3 +28,6 @@
 [submodule "hello"]
 	path = hello
 	url = https://github.com/cmasfo/hello
+[submodule "lang"]
+	path = lang
+	url = https://github.com/cmasfo/lang
