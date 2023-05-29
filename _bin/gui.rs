@@ -9,6 +9,8 @@ use winit::{
   window::WindowBuilder,
 };
 
+use lib::*;
+
 fn main() {
 
   let event_loop = EventLoop::new();
