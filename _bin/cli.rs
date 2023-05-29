@@ -1,5 +1,6 @@
 
 // cli window
+#![allow(unused_imports)]
 
 use lib::*;
 

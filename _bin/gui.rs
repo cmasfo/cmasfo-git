@@ -2,6 +2,7 @@
 // gui window
 
 #![windows_subsystem = "windows"]
+#![allow(unused_imports)]
 
 use winit::{
   event::{Event, WindowEvent},
