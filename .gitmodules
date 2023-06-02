@@ -37,3 +37,6 @@
 [submodule "dev"]
 	path = dev
 	url = https://github.com/cmasfo/dev
+[submodule "science"]
+	path = science
+	url = https://github.com/cmasfo/science
