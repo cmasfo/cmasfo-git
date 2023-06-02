@@ -49,3 +49,12 @@
 [submodule "data"]
 	path = data
 	url = https://github.com/cmasfo/data
+[submodule "os"]
+	path = os
+	url = https://github.com/cmasfo/os
+[submodule "sql"]
+	path = sql
+	url = https://github.com/cmasfo/sql
+[submodule "db"]
+	path = db
+	url = https://github.com/cmasfo/db
