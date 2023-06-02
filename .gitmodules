@@ -49,9 +49,6 @@
 [submodule "db"]
 	path = db
 	url = https://github.com/cmasfo/db
-[submodule "language"]
-	path = language
-	url = https://github.com/cmasfo/language
 [submodule "gui"]
 	path = gui
 	url = https://github.com/cmasfo/gui
