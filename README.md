@@ -103,9 +103,7 @@ fn func() {
 * dir or file naming (ordering: unicode)
   * .dir (dot: hidden, based on unix-style)
   * 0_dir (number: structured, can be labeled with number)
-  * Dir (upper-case: higher priority than lower-case)
-  * _dir (underscore: higher priority than lower-case)
-  * dir (lower-case: normal priority)
+  * Dir (upper-case: not component)
+  * _dir (underscore: component, but with higher priority)
+  * dir (lower-case: component)
   * NON-ENGLISH (non-english)
-* do not use 'Dir' and '_dir' style together.
-* if there's NON-ENGLISH dir, prefer using 'Dir' style for english dir
