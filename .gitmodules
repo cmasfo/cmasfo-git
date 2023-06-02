@@ -67,3 +67,6 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/cmasfo/docs
+[submodule "server"]
+	path = server
+	url = https://github.com/cmasfo/server
