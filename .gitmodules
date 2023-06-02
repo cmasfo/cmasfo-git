@@ -40,3 +40,12 @@
 [submodule "science"]
 	path = science
 	url = https://github.com/cmasfo/science
+[submodule "terminal"]
+	path = terminal
+	url = https://github.com/cmasfo/terminal
+[submodule "computer"]
+	path = computer
+	url = https://github.com/cmasfo/computer
+[submodule "data"]
+	path = data
+	url = https://github.com/cmasfo/data
