@@ -28,18 +28,12 @@
 [submodule "hello"]
 	path = hello
 	url = https://github.com/cmasfo/hello
-[submodule "web-app"]
-	path = web-app
-	url = https://github.com/cmasfo/web-app
 [submodule "dev"]
 	path = dev
 	url = https://github.com/cmasfo/dev
 [submodule "science"]
 	path = science
 	url = https://github.com/cmasfo/science
-[submodule "terminal"]
-	path = terminal
-	url = https://github.com/cmasfo/terminal
 [submodule "computer"]
 	path = computer
 	url = https://github.com/cmasfo/computer
@@ -58,3 +52,9 @@
 [submodule "language"]
 	path = language
 	url = https://github.com/cmasfo/language
+[submodule "gui"]
+	path = gui
+	url = https://github.com/cmasfo/gui
+[submodule "cli"]
+	path = cli
+	url = https://github.com/cmasfo/cli
