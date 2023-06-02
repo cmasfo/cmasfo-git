@@ -55,3 +55,6 @@
 [submodule "cli"]
 	path = cli
 	url = https://github.com/cmasfo/cli
+[submodule "lang"]
+	path = lang
+	url = https://github.com/cmasfo/lang
