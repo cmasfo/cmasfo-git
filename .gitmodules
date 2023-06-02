@@ -76,3 +76,6 @@
 [submodule "windows"]
 	path = windows
 	url = https://github.com/cmasfo/windows
+[submodule ".github/archive"]
+	path = .github/archive
+	url = https://github.com/cmasfo/archive
