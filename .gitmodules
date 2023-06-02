@@ -55,3 +55,6 @@
 [submodule "db"]
 	path = db
 	url = https://github.com/cmasfo/db
+[submodule "language"]
+	path = language
+	url = https://github.com/cmasfo/language
