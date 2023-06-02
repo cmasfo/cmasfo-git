@@ -58,3 +58,9 @@
 [submodule "lang"]
 	path = lang
 	url = https://github.com/cmasfo/lang
+[submodule "bin"]
+	path = bin
+	url = https://github.com/cmasfo/bin
+[submodule "ai"]
+	path = ai
+	url = https://github.com/cmasfo/ai
