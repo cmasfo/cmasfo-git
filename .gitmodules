@@ -37,9 +37,6 @@
 [submodule "data"]
 	path = data
 	url = https://github.com/cmasfo/data
-[submodule "os"]
-	path = os
-	url = https://github.com/cmasfo/os
 [submodule "gui"]
 	path = gui
 	url = https://github.com/cmasfo/gui
@@ -49,12 +46,6 @@
 [submodule "lang"]
 	path = lang
 	url = https://github.com/cmasfo/lang
-[submodule "bin"]
-	path = bin
-	url = https://github.com/cmasfo/bin
-[submodule "ai"]
-	path = ai
-	url = https://github.com/cmasfo/ai
 [submodule "code"]
 	path = code
 	url = https://github.com/cmasfo/code
@@ -67,3 +58,6 @@
 [submodule ".github/archive"]
 	path = .github/archive
 	url = https://github.com/cmasfo/archive
+[submodule "system"]
+	path = system
+	url = https://github.com/cmasfo/system
