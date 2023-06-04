@@ -58,3 +58,9 @@
 [submodule "shell"]
 	path = shell
 	url = https://github.com/cmasfo/shell
+[submodule "company"]
+	path = company
+	url = https://github.com/cmasfo/company
+[submodule "society"]
+	path = society
+	url = https://github.com/cmasfo/society
