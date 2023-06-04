@@ -64,12 +64,6 @@
 [submodule "server"]
 	path = server
 	url = https://github.com/cmasfo/server
-[submodule "linux"]
-	path = linux
-	url = https://github.com/cmasfo/linux
-[submodule "windows"]
-	path = windows
-	url = https://github.com/cmasfo/windows
 [submodule ".github/archive"]
 	path = .github/archive
 	url = https://github.com/cmasfo/archive
