@@ -40,9 +40,6 @@
 [submodule "os"]
 	path = os
 	url = https://github.com/cmasfo/os
-[submodule "db"]
-	path = db
-	url = https://github.com/cmasfo/db
 [submodule "gui"]
 	path = gui
 	url = https://github.com/cmasfo/gui
