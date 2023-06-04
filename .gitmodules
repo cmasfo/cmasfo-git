@@ -64,3 +64,6 @@
 [submodule "society"]
 	path = society
 	url = https://github.com/cmasfo/society
+[submodule "japanese"]
+	path = japanese
+	url = https://github.com/cmasfo/japanese
