@@ -7,7 +7,7 @@ version = "0.1.0"
 edition = "2021"
 # additional
 default-run = "cli"
-build = "_src/_build/build.rs"
+build = "_pre/build.rs"
 
 # common library
 [lib]
@@ -17,17 +17,17 @@ path = "_src/lib.rs"
 # start app with cli
 [[bin]]
 name = "cli"
-path = "_src/_bin/cli.rs"
+path = "_bin/cli.rs"
 
 # start app with gui
 [[bin]]
 name = "gui"
-path = "_src/_bin/gui.rs"
+path = "_bin/gui.rs"
 
 # start app with no ui
 [[bin]]
 name = "bin"
-path = "_src/_bin/bin.rs"
+path = "_bin/bin.rs"
 
 [dependencies]
 # popular crates
