@@ -52,9 +52,6 @@
 [submodule "system"]
 	path = system
 	url = https://github.com/cmasfo/system
-[submodule "web-app"]
-	path = web-app
-	url = https://github.com/cmasfo/web-app
 [submodule "shell"]
 	path = shell
 	url = https://github.com/cmasfo/shell
