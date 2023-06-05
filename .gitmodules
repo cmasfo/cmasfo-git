@@ -16,51 +16,6 @@
 [submodule ".github/profile"]
 	path = .github/profile
 	url = https://github.com/cmasfo/cmasfo
-[submodule "korean"]
-	path = korean
-	url = https://github.com/cmasfo/korean
-[submodule "c-cpp"]
-	path = c-cpp
-	url = https://github.com/cmasfo/c-cpp
-[submodule "rust"]
-	path = rust
-	url = https://github.com/cmasfo/rust
-[submodule "dev"]
-	path = dev
-	url = https://github.com/cmasfo/dev
-[submodule "science"]
-	path = science
-	url = https://github.com/cmasfo/science
-[submodule "computer"]
-	path = computer
-	url = https://github.com/cmasfo/computer
-[submodule "data"]
-	path = data
-	url = https://github.com/cmasfo/data
-[submodule "lang"]
-	path = lang
-	url = https://github.com/cmasfo/lang
-[submodule "code"]
-	path = code
-	url = https://github.com/cmasfo/code
-[submodule "docs"]
-	path = docs
-	url = https://github.com/cmasfo/docs
 [submodule ".github/archive"]
 	path = .github/archive
 	url = https://github.com/cmasfo/archive
-[submodule "system"]
-	path = system
-	url = https://github.com/cmasfo/system
-[submodule "shell"]
-	path = shell
-	url = https://github.com/cmasfo/shell
-[submodule "company"]
-	path = company
-	url = https://github.com/cmasfo/company
-[submodule "society"]
-	path = society
-	url = https://github.com/cmasfo/society
-[submodule "japanese"]
-	path = japanese
-	url = https://github.com/cmasfo/japanese
