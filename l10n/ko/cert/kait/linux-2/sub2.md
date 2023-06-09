@@ -108,17 +108,50 @@ Shell 종류:
 * echo $변수명: 변수값 확인
 * unset 변수명: 변수 정의 해제
 
-## (todo)
+## 프로세스 관련 명령어
 
-* 3항목: 프로세스 관리
-  * 개념 및 유형
-  * 프로세스 유틸리티
-* 4항목: 에디터
-  * 에디터의 종류
-  * 에디터 활용
-* 5항목: 소프트웨어 설치
-  * 개념 및 사용법
-  * 소프트웨어 설치 및 삭제
-* 6항목: 장치 설정
-  * 주변장치 연결 및 설정
-  * 주변장치 활용
+* ps
+* pstree
+* jobs
+* bg/fg
+* kill
+* killall
+* nice
+* renice
+* top
+* nohup
+* tail
+* crontab
+
+## 에디터 종류
+
+* vi
+* vim
+* nvim
+* emacs
+* pico
+* gedit
+* xedit
+
+## 소프트웨어 설치
+
+* Debian 계열 (Debian, Ubuntu 등)
+  * 패키지 툴: dbkg, apt-get, aptitude
+* Red-Hat 계열 (Fedora, CentOS, RHEL 등)
+  * 패키지 툴: rpm, yum
+* OpenSUSE 계열
+  * 패키지 툴: yaST, zypper
+
+## 장치 관련 명령어
+
+* 프린터 관련
+  * BSD 계열
+    * lpd, lpc, lpq, lpr, lpm
+  * System V 계열
+    * lp, lpstat, cancel
+* 사운드카드 관련
+  * alsactl
+* 스캐너 관련
+  * sane-find-scanner
+  * scanimage
+  * scanadf
