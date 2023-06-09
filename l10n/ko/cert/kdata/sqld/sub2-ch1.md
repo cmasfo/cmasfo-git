@@ -190,8 +190,6 @@ ORDER BY 절은 결과를 정렬할 수 있게 해주는 것이다.
 
 조인 연산은 두 개 이상의 테이블을 연결 또는 결합하여 데이터를 출력하는 것을 의미한다.
 
-조인 연산의 종류엔 여러 가지가 있다.
-
 * EQUI JOIN (등가 조인)
   * 두 테이블 간에 칼럼 값들이 서로 정확하게 일치하는 경우
   * 대부분 PK <-> FK 관계에 기반하지만 필수는 아님
@@ -199,33 +197,5 @@ ORDER BY 절은 결과를 정렬할 수 있게 해주는 것이다.
   * 두 테이블 간에 칼럼 값들이 서로 정확하게 일치하지 않는 경우
   * = 연산자가 아닌 다른 연산자들을 사용해 JOIN 수행
   * (ex: BETWEEN, >, >=, <, <= 등)
-* INNER JOIN (내부 조인)
-  * OUTER JOIN과 대비되는 개념
-  * JOIN 조건에서 동일한 값이 있는 행만 반환
-  * INNER JOIN 표시는 JOIN 조건을 FROM 절에서 정의하겠다는 표시임
-  * 따라서 USING 조건절이나 ON 조건절을 필수적으로 사용해야 함
-  * INNER는 SQL문 내에서 생략 가능
-  * USING 조건절: 같은 이름을 가진 컬럼 중 원하는 컬럼만 사용 가능
-  * ON 조건절: 칼럼명이 다르더라도 JOIN 조건을 사용할 수 있음
-* NATURAL JOIN
-  * 두 테이블 간의 동일한 이름을 갖는 모든 칼럼들에 대해 EQUI JOIN 수행
-  * NATURAL JOIN이 명시되면 추가로 USING 조건절, ON 조건절, WHERE 절에서 JOIN 조건을 정의할 수 없음
-* CROSS JOIN
-  * 테이블 간 JOIN 조건이 없는 경우 생길 수 있는 모든 데이터의 조합을 출력함
-  * CARTESIAN PRODUCT와 같은 개념임
-* OUTER JOIN
-  * INNER JOIN과 대비되는 개념
-  * JOIN 조건에서 동일한 값이 없는 행도 반환할 때 사용 가능
-  * OUTER JOIN 또한 JOIN 조건을 FROM 절에서 정의하겠다는 표시임
-  * 따라서 USING 조건절이나 ON 조건절 필수적으로 사용해야 함
-* LEFT OUTER JOIN
-  * 먼저 표기된 좌측 테이블에 해당하는 데이터를 먼저 읽음
-  * 이후 나중에 표기된 우측 테이블에서 JOIN 대상 데이터를 읽어옴
-  * OUTER 생략하여 LEFT JOIN으로 사용 가능
-* RIGHT OUTER JOIN
-  * 나중에 표기된 우측 테이블에 해당하는 데이터를 먼저 읽음
-  * 이후 먼저 표기된 좌측 테이블에서 JOIN 대상 데이터를 읽어옴
-  * OUTER 생략하여 RIGHT JOIN으로 사용 가능
-* FULL OUTER JOIN
-  * 조인 수행 시 좌측 우측 테이블의 모든 데이터를 읽어 JOIN
-  * OUTER 생략하여 FULL JOIN으로 사용 가능
+
+이외에도 여러 가지 조인 연산이 있다.
