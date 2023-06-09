@@ -50,7 +50,7 @@
   * 본래 릴레이션에는 있으나 다른 릴레이션엔 없는 것 조회
 * 교집합(Intersection)
   * 릴레이션 2개 안에 공통된 것을 조회
-* 곱집합(Catesian Product)
+* 곱집합(Cartesian Product)
   * 각 릴레이션의 모든 데이터를 조합하여 연산
 
 ## 관계연산 종류
@@ -119,8 +119,113 @@
 
 ## WHERE 절
 
+```
+SELECT [DISTINCT/ALL] 칼럼명 [ALIAS명] FROM 테이블명 WHERE 조건식;
+```
+
+여기서 어떤 조건을 넣느냐에 따라 쿼리 검색 결과가 달라진다.
+
+즉, 조건식이 핵심인 것이다.
+
+조건식에는 여러 가지 연산자가 사용된다.
+
+* 비교 연산자
+  * \= (같다)
+  * \> (~보다 크다)
+  * \>= (~보다 크거나 같다)
+  * \< (~보다 작다)
+  * \<= (~보다 작거나 같다)
+* SQL 연산자
+  * BETWEEN a AND b (a와 b 값 사이에 있으면 된다, a와 b는 포함)
+  * IN (list) (list에 있는 값 중에 어느 하나라도 일치)
+  * LIKE '비교문자열' (비교문자열과 형태 일치)
+  * IS NULL (NULL 값인 경우)
+* 논리 연산자
+  * AND
+  * OR
+  * NOT
+* 부정 비교 연산자
+  * != (같지 않다)
+  * ^= (같지 않다)
+  * <> (같지 않다, ISO 표준)
+  * NOT 칼럼명 =
+  * NOT 칼럼명 > 
+* 부정 SQL 연산자
+  * NOT BETWEEN a and b
+  * NOT INT (list)
+  * IS NOT NULL
+
 ## GROUP BY, HAVING 절
+
+GROUP BY는 말 그대로 그룹끼리 묶어주는 것이다.
+
+집계함수와 함께 사용되며, 집계함수 종류는 다음과 같다.
+
+* SUM()
+* AVG()
+* MIN()
+* MAX()
+* COUNT()
+* COUNT(DISTINCT)
+
+또한 조건절 WHERE이 아닌 HAVING을 사용하며, 사용하는 방법은 WHERE 절과 마찬가지로 조건식을 적으면 된다.
+
+```
+SELECT 집계함수(칼럼명) FROM 테이블명 GROUP BY 그룹기준칼럼 [HAVING 조건]
+```
 
 ## ORDER BY 절
 
+```
+SELECT 집계함수(칼럼명) FROM 테이블명 GROUP BY 그룹기준칼럼 [HAVING 조건] [ORDER BY 컬럼명 ASC|DESC]
+```
+
+ORDER BY 절은 결과를 정렬할 수 있게 해주는 것이다.
+
+컬럼명 뒤에 ASC 또는 DESC를 붙이며 각각 오름차순, 내림차순을 의미한다.
+
+기본값은 ASC이기 때문에, ASC의 경우 생략해도 된다.
+
 ## 조인
+
+조인 연산은 두 개 이상의 테이블을 연결 또는 결합하여 데이터를 출력하는 것을 의미한다.
+
+조인 연산의 종류엔 여러 가지가 있다.
+
+* EQUI JOIN (등가 조인)
+  * 두 테이블 간에 칼럼 값들이 서로 정확하게 일치하는 경우
+  * 대부분 PK <-> FK 관계에 기반하지만 필수는 아님
+* NON EQUI JOIN (비등가 조인)
+  * 두 테이블 간에 칼럼 값들이 서로 정확하게 일치하지 않는 경우
+  * = 연산자가 아닌 다른 연산자들을 사용해 JOIN 수행
+  * (ex: BETWEEN, >, >=, <, <= 등)
+* INNER JOIN (내부 조인)
+  * OUTER JOIN과 대비되는 개념
+  * JOIN 조건에서 동일한 값이 있는 행만 반환
+  * INNER JOIN 표시는 JOIN 조건을 FROM 절에서 정의하겠다는 표시임
+  * 따라서 USING 조건절이나 ON 조건절을 필수적으로 사용해야 함
+  * INNER는 SQL문 내에서 생략 가능
+  * USING 조건절: 같은 이름을 가진 컬럼 중 원하는 컬럼만 사용 가능
+  * ON 조건절: 칼럼명이 다르더라도 JOIN 조건을 사용할 수 있음
+* NATURAL JOIN
+  * 두 테이블 간의 동일한 이름을 갖는 모든 칼럼들에 대해 EQUI JOIN 수행
+  * NATURAL JOIN이 명시되면 추가로 USING 조건절, ON 조건절, WHERE 절에서 JOIN 조건을 정의할 수 없음
+* CROSS JOIN
+  * 테이블 간 JOIN 조건이 없는 경우 생길 수 있는 모든 데이터의 조합을 출력함
+  * CARTESIAN PRODUCT와 같은 개념임
+* OUTER JOIN
+  * INNER JOIN과 대비되는 개념
+  * JOIN 조건에서 동일한 값이 없는 행도 반환할 때 사용 가능
+  * OUTER JOIN 또한 JOIN 조건을 FROM 절에서 정의하겠다는 표시임
+  * 따라서 USING 조건절이나 ON 조건절 필수적으로 사용해야 함
+* LEFT OUTER JOIN
+  * 먼저 표기된 좌측 테이블에 해당하는 데이터를 먼저 읽음
+  * 이후 나중에 표기된 우측 테이블에서 JOIN 대상 데이터를 읽어옴
+  * OUTER 생략하여 LEFT JOIN으로 사용 가능
+* RIGHT OUTER JOIN
+  * 나중에 표기된 우측 테이블에 해당하는 데이터를 먼저 읽음
+  * 이후 먼저 표기된 좌측 테이블에서 JOIN 대상 데이터를 읽어옴
+  * OUTER 생략하여 RIGHT JOIN으로 사용 가능
+* FULL OUTER JOIN
+  * 조인 수행 시 좌측 우측 테이블의 모든 데이터를 읽어 JOIN
+  * OUTER 생략하여 FULL JOIN으로 사용 가능
