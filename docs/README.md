@@ -1,10 +1,10 @@
 
 # Docs
 
-This is not an ordinary docs dir for github.
+This is not a 'docs' dir as a special directory.
 
-This is just a category.
+This is just a 'docs' category.
 
-Instead, '.github' dir will replace the ordinary docs dir.
+The '.github' dir will replace the feature of special 'docs' directory.
 
-For example, 'CONTRIBUTING.md', or 'LICENSE.md'.
+That still can do same functions.
