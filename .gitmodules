@@ -14,8 +14,8 @@
 	path = 4_app
 	url = https://github.com/cmasfo/cmasfo-app
 [submodule ".github/profile"]
-	path = .github/profile
+	path = .github/prof
 	url = https://github.com/cmasfo/cmasfo
 [submodule ".github/archive"]
-	path = .github/archive
+	path = .github/arch
 	url = https://github.com/cmasfo/archive
