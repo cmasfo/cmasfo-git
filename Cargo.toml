@@ -1,5 +1,4 @@
 
-# main rust project
 [package]
 # basic
 name = "rust"
@@ -9,28 +8,25 @@ edition = "2021"
 default-run = "cli"
 build = "_pre/build.rs"
 
-# common library
 [lib]
 name = "lib"
 path = "_src/lib.rs"
 
-# start app with cli
+# cli mode (terminal, default)
 [[bin]]
 name = "cli"
 path = "_bin/cli.rs"
 
-# start app with gui
+# gui mode (web-browser)
 [[bin]]
 name = "gui"
 path = "_bin/gui.rs"
 
-# start app with no ui
+# service mode (no ui)
 [[bin]]
-name = "bin"
-path = "_bin/bin.rs"
+name = "svc"
+path = "_bin/svc.rs"
 
 [dependencies]
-# popular crates
 rand = "0"
-# windowing
 winit = "0"
