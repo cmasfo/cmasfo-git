@@ -1,3 +1,6 @@
 [submodule "c-cpp"]
 	path = c-cpp
 	url = https://github.com/cmasfo/c-cpp
+[submodule "hello"]
+	path = hello
+	url = https://github.com/cmasfo/hello
