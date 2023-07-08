@@ -16,3 +16,18 @@
 [submodule "rust"]
 	path = rust
 	url = https://github.com/cmasfo/rust
+[submodule "0_dev"]
+	path = 0_dev
+	url = https://github.com/cmasfo/cmasfo-dev
+[submodule "1_net"]
+	path = 1_net
+	url = https://github.com/cmasfo/cmasfo-net
+[submodule "2_org"]
+	path = 2_org
+	url = https://github.com/cmasfo/cmasfo-org
+[submodule "3_com"]
+	path = 3_com
+	url = https://github.com/cmasfo/cmasfo-com
+[submodule "4_app"]
+	path = 4_app
+	url = https://github.com/cmasfo/cmasfo-app
