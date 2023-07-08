@@ -3,11 +3,11 @@
 #![allow(unused_imports)]
 #![allow(unused_variables)]
 
-pub mod cli;
-pub use cli::*;
+pub mod xcli;
+pub use xcli::*;
 
-pub mod devstr;
-pub use devstr::*;
+pub mod xstr;
+pub use xstr::*;
 
-pub mod fs;
-pub use fs::*;
+pub mod xfs;
+pub use xfs::*;
