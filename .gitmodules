@@ -13,3 +13,6 @@
 [submodule ".github/profile"]
 	path = .github/profile
 	url = https://github.com/cmasfo/cmasfo
+[submodule "rust"]
+	path = rust
+	url = https://github.com/cmasfo/rust
