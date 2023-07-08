@@ -7,3 +7,9 @@
 [submodule "lang"]
 	path = lang
 	url = https://github.com/cmasfo/lang
+[submodule ".github/archive"]
+	path = .github/archive
+	url = https://github.com/cmasfo/archive
+[submodule ".github/profile"]
+	path = .github/profile
+	url = https://github.com/cmasfo/cmasfo
