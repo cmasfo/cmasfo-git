@@ -1,5 +1,5 @@
 [submodule "c-cpp"]
-	path = c-cpp
+	path = lang/c-cpp
 	url = https://github.com/cmasfo/c-cpp
 [submodule "lang"]
 	path = l10n
@@ -11,7 +11,7 @@
 	path = .github/profile
 	url = https://github.com/cmasfo/cmasfo
 [submodule "rust"]
-	path = rust
+	path = lang/rust
 	url = https://github.com/cmasfo/rust
 [submodule "0_dev"]
 	path = 0_dev
@@ -32,17 +32,17 @@
 	path = web-app
 	url = https://github.com/cmasfo/web-app
 [submodule "java-kotlin"]
-	path = java-kotlin
+	path = lang/java-kotlin
 	url = https://github.com/cmasfo/java-kotlin
 [submodule "data"]
 	path = data
 	url = https://github.com/cmasfo/data
 [submodule "ps"]
-	path = ps
+	path = code/ps
 	url = https://github.com/cmasfo/ps
 [submodule "dsa"]
-	path = dsa
+	path = code/dsa
 	url = https://github.com/cmasfo/dsa
 [submodule "hello"]
-	path = hello
+	path = code/hello
 	url = https://github.com/cmasfo/hello
