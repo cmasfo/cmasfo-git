@@ -40,9 +40,6 @@
 [submodule "java-kotlin"]
 	path = java-kotlin
 	url = https://github.com/cmasfo/java-kotlin
-[submodule "js-ts"]
-	path = js-ts
-	url = https://github.com/cmasfo/js-ts
 [submodule "data"]
 	path = data
 	url = https://github.com/cmasfo/data
