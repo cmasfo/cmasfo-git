@@ -1,9 +1,6 @@
 [submodule "c-cpp"]
 	path = c-cpp
 	url = https://github.com/cmasfo/c-cpp
-[submodule "hello"]
-	path = hello
-	url = https://github.com/cmasfo/hello
 [submodule "lang"]
 	path = lang
 	url = https://github.com/cmasfo/lang
@@ -31,9 +28,6 @@
 [submodule "4_app"]
 	path = 4_app
 	url = https://github.com/cmasfo/cmasfo-app
-[submodule "dsa"]
-	path = dsa
-	url = https://github.com/cmasfo/dsa
 [submodule "web-app"]
 	path = web-app
 	url = https://github.com/cmasfo/web-app
