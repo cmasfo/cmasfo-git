@@ -34,3 +34,6 @@
 [submodule "dsa"]
 	path = dsa
 	url = https://github.com/cmasfo/dsa
+[submodule "web-app"]
+	path = web-app
+	url = https://github.com/cmasfo/web-app
