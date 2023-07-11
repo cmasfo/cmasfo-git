@@ -1,9 +1,6 @@
 [submodule "c-cpp"]
 	path = lang/c-cpp
 	url = https://github.com/cmasfo/c-cpp
-[submodule "lang"]
-	path = l10n
-	url = https://github.com/cmasfo/lang
 [submodule ".github/archive"]
 	path = .github/archive
 	url = https://github.com/cmasfo/archive
@@ -46,3 +43,6 @@
 [submodule "hello"]
 	path = code/hello
 	url = https://github.com/cmasfo/hello
+[submodule "l10n/ko_KR"]
+	path = l10n/ko_KR
+	url = https://github.com/cmasfo/l10n-ko_KR
