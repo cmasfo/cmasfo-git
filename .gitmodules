@@ -37,3 +37,12 @@
 [submodule "web-app"]
 	path = web-app
 	url = https://github.com/cmasfo/web-app
+[submodule "java-kotlin"]
+	path = java-kotlin
+	url = https://github.com/cmasfo/java-kotlin
+[submodule "js-ts"]
+	path = js-ts
+	url = https://github.com/cmasfo/js-ts
+[submodule "db"]
+	path = db
+	url = https://github.com/cmasfo/db
