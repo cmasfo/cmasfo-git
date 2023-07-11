@@ -2,7 +2,7 @@
 	path = c-cpp
 	url = https://github.com/cmasfo/c-cpp
 [submodule "lang"]
-	path = l18n
+	path = l10n
 	url = https://github.com/cmasfo/lang
 [submodule ".github/archive"]
 	path = .github/archive
