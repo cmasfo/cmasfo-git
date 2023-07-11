@@ -1,4 +1,6 @@
 {
   "explorer.sortOrderLexicographicOptions": "unicode",
-  "rust-analyzer.showUnlinkedFileNotification": false
+  "rust-analyzer.showUnlinkedFileNotification": false,
+  "vscode_custom_css.imports": ["file:///C:/Users/admin/Documents/custom.css"],
+  "vscode_custom_css.policy": true,
 }
