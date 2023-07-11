@@ -37,3 +37,12 @@
 [submodule "data"]
 	path = data
 	url = https://github.com/cmasfo/data
+[submodule "ps"]
+	path = ps
+	url = https://github.com/cmasfo/ps
+[submodule "dsa"]
+	path = dsa
+	url = https://github.com/cmasfo/dsa
+[submodule "hello"]
+	path = hello
+	url = https://github.com/cmasfo/hello
